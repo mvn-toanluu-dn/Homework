@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/table.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <title>Create Product</title>
+</head>
+<body>
+  <header class="page-header">
+    <hr/>
+    <nav class="header-nav">
+      <div class="container">
+        <a class="logo" href="./listproduct.html"><img src="./image/logo.png" alt="Logo"></a>
+        <ul class="menu-list">
+          <li><a href="./listproduct.html">List Product</a></li>
+          <li><a href="./create.html">Create</a></li>
+          <li><a href="./edit.html">Edit</a></li>
+        </ul>
+        <ul class="icon-list">
+          <li>
+            <a href=""><i class="fa fa-search"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <div class="container">
+        <form id="form-create" onsubmit="createProduct()">
+          <h2>Create Product</h2>
+          <label >ID: </label><br>
+          <input type="text" id="id"  ><br>
+          <label >Product Name: </label><br>
+          <input type="text" id="product-name"  ><br>
+          <label for="price">Price: </label><br>
+          <input type="text" id="price"  ><br>
+          <label >Img: </label><br>
+          <input type="file" id="upfile" >
+          <input type="submit" id="btn-create" value="Create Product">
+        </form>
+    </div>
+  </main>
+  <!-- <script src="./js/index.js"></script> -->
+  <script src="./js/create.js"></script>
+</body>
+</html>
