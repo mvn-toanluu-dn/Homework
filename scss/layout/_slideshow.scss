@@ -1,0 +1,53 @@
+.slide-list {
+  margin-top: 28px;
+    .slide-item img {
+      width: 100%;
+    } 
+    .slide-action {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      .btn {
+      background: none;
+      border: none;
+      color: #fff;
+      }
+      .btn-pre {
+      left: 30px;
+      position: absolute;
+      }
+      .btn-next {
+      right: 30px;
+      position: absolute;
+    }
+      i {
+      font-size: 36px;
+        }
+    }
+    .slide-content {
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+      color: #fff;
+      .slide-title .slide-discount{
+        display: inline-block;
+      }
+      .slide-discount {
+        font-size: 60px;
+      }
+      
+      .slide-title {
+        font-size: 30px;
+      }
+      .btn-shopnow {
+        position: absolute;
+        bottom: -80px;
+        border: 2px solid #fff;
+        padding: 20px 50px 20px 50px;
+        border-radius: 25px;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+}

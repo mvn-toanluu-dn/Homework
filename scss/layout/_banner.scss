@@ -1,0 +1,44 @@
+.banner-display {
+  position: relative;
+  overflow: hidden;
+  .banner-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    list-style: none;
+  h3 {
+    color: #915342
+    ;
+    font-weight: 600px;
+    margin: 0;
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: 600px;
+  }
+  h4 span {
+    color:#935644 ;
+    font-size: 20px;
+    line-height: 1;
+    top: 5px;
+    display: inline-block;
+    margin: 0 0 2px;
+    position: relative;
+  }
+  a{
+    display: inline-block;
+    color: #97584a;
+    border: 2px solid #97584a;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+    top: 100px;
+  }
+ }
+}
