@@ -74,6 +74,44 @@ img {
     font-size: 18px;
     margin-left: 18px; }
 
+.page-footer {
+  margin-top: 40px;
+  height: 400px;
+  background-color: #f7f7f7; }
+  .page-footer .footer-left {
+    margin-top: 160px;
+    position: relative;
+    padding-left: 15px;
+    left: 20px; }
+    .page-footer .footer-left h4 {
+      text-align: left; }
+  .page-footer .footer-right-col {
+    margin-top: 120px;
+    margin-left: 80px;
+    padding: 10px; }
+    .page-footer .footer-right-col .footer-tab-title {
+      font-size: 18px; }
+    .page-footer .footer-right-col .list-link li {
+      font-size: 20px;
+      color: #333;
+      line-height: 30px; }
+      .page-footer .footer-right-col .list-link li .form-subscribe-footer input {
+        width: 280px;
+        padding: 2px 10px 2px;
+        margin: 8px 0;
+        background: none;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #ebebeb;
+        outline: none; }
+      .page-footer .footer-right-col .list-link li .form-subscribe-footer button {
+        box-sizing: border-box;
+        border: none; }
+    .page-footer .footer-right-col .list-link li a:hover {
+      color: #a749ff; }
+    .page-footer .footer-right-col .list-link button li:hover {
+      color: #a749ff; }
+
 .slide-list {
   margin-top: 28px; }
   .slide-list .slide-item img {
@@ -279,41 +317,3 @@ img {
     transition: all .5s ease-in-out 0s;
     background-color: #a749ff;
     color: #fff; }
-
-.page-footer {
-  margin-top: 40px;
-  height: 400px;
-  background-color: #f7f7f7; }
-  .page-footer .footer-left {
-    margin-top: 160px;
-    position: relative;
-    padding-left: 15px;
-    left: 20px; }
-    .page-footer .footer-left h4 {
-      text-align: left; }
-  .page-footer .footer-right-col {
-    margin-top: 120px;
-    margin-left: 80px;
-    padding: 10px; }
-    .page-footer .footer-right-col .footer-tab-title {
-      font-size: 18px; }
-    .page-footer .footer-right-col .list-link li {
-      font-size: 20px;
-      color: #333;
-      line-height: 30px; }
-      .page-footer .footer-right-col .list-link li .form-subscribe-footer input {
-        width: 280px;
-        padding: 2px 10px 2px;
-        margin: 8px 0;
-        background: none;
-        box-sizing: border-box;
-        border: none;
-        border-bottom: 2px solid #ebebeb;
-        outline: none; }
-      .page-footer .footer-right-col .list-link li .form-subscribe-footer button {
-        box-sizing: border-box;
-        border: none; }
-    .page-footer .footer-right-col .list-link li a:hover {
-      color: #a749ff; }
-    .page-footer .footer-right-col .list-link button li:hover {
-      color: #a749ff; }
