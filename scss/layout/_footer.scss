@@ -1,12 +1,13 @@
 .page-footer {
   margin-top: 40px;
   height: 400px;
-  background-color: #f7f7f7;
+  background-color: $bgcfooter;
   .footer-left {
     margin-top: 160px;
     position: relative;
     padding-left: 15px;
     left: 20px;
+
     h4 {
       text-align: left;
     }
@@ -15,33 +16,19 @@
     margin-top: 120px;
     margin-left: 80px;
     padding: 10px;
-  .footer-tab-title {
-    font-size: 18px;
-  }
-  .list-link li {
-    font-size: 20px;
-    color: #333;
-    line-height: 30px;
-  .form-subscribe-footer input {
-    width: 280px;
-    padding: 2px 10px 2px;
-    margin: 8px 0;
-    background: none;  
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid #ebebeb;
-    outline: none;
+    .footer-tab-title {
+      font-size: 18px;
     }
-  .form-subscribe-footer button {
-    box-sizing: border-box;
-    border: none;
-  }
-  }
-  .list-link li a:hover {
-    color: #a749ff;
-  }
-  .list-link button li:hover {
-    color: #a749ff;
-  }
+    .list-link li {
+      font-size: 20px;
+      color: $txt-gray;
+      line-height: 30px;
+    }
+    .list-link li a:hover {
+      color: $primary;
+    }
+    .list-link button li:hover {
+      color: $primary;
+    }
   }
 }
