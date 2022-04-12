@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  border: none; }
+
+.container {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0 15px; }
+
+.pt-60 {
+  padding-top: 60px; }
+
+.row {
+  display: flex;
+  justify-content: space-around; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.header-top {
+  height: 50px; }
+
+.header-left {
+  line-height: 50px; }
+  .header-left li {
+    display: inline-block;
+    margin-left: 50px; }
+
+.header-right {
+  float: right;
+  line-height: 50px; }
+  .header-right span {
+    color: #c61a32; }
+
+.header-nav {
+  height: 90px; }
+  .header-nav .logo {
+    display: block;
+    margin-top: 16px; }
+    .header-nav .logo img {
+      width: 100px; }
+  .header-nav .menu-list {
+    display: inline-block;
+    margin-left: 180px; }
+    .header-nav .menu-list li {
+      display: inline-block;
+      line-height: 90px;
+      padding: 16px;
+      font-size: 18px;
+      font-weight: 600px; }
+
+.icon-list {
+  display: inline;
+  float: right; }
+  .icon-list li {
+    display: inline;
+    line-height: 90px;
+    font-size: 18px;
+    margin-left: 18px; }
+
+.page-footer {
+  margin-top: 40px;
+  height: 400px;
+  background-color: #f7f7f7; }
+  .page-footer .footer-left {
+    margin-top: 160px;
+    position: relative;
+    padding-left: 15px;
+    left: 20px; }
+    .page-footer .footer-left h4 {
+      text-align: left; }
+  .page-footer .footer-right-col {
+    margin-top: 120px;
+    margin-left: 80px;
+    padding: 10px; }
+    .page-footer .footer-right-col .footer-tab-title {
+      font-size: 18px; }
+    .page-footer .footer-right-col .list-link li {
+      font-size: 20px;
+      color: #555;
+      line-height: 30px; }
+    .page-footer .footer-right-col .list-link li a:hover {
+      color: #a749ff; }
+    .page-footer .footer-right-col .list-link button li:hover {
+      color: #a749ff; }
+
+.slide-list {
+  margin-top: 28px; }
+  .slide-list .slide-item img {
+    width: 100%; }
+  .slide-list .slide-action {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%); }
+    .slide-list .slide-action .btn {
+      background: none;
+      border: none;
+      color: #fff; }
+    .slide-list .slide-action .btn-pre {
+      left: 30px;
+      position: absolute; }
+    .slide-list .slide-action .btn-next {
+      right: 30px;
+      position: absolute; }
+    .slide-list .slide-action i {
+      font-size: 36px; }
+  .slide-list .slide-content {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    color: #fff; }
+    .slide-list .slide-content .slide-title .slide-discount {
+      display: inline-block; }
+    .slide-list .slide-content .slide-discount {
+      font-size: 60px; }
+    .slide-list .slide-content .slide-title {
+      font-size: 30px; }
+    .slide-list .slide-content .btn-shopnow {
+      position: absolute;
+      bottom: -80px;
+      border: 2px solid #fff;
+      padding: 20px 50px 20px 50px;
+      border-radius: 25px;
+      font-size: 20px;
+      color: #fff; }
+
+.banner-display {
+  position: relative;
+  overflow: hidden; }
+
+.section-products {
+  margin-top: 50px; }
+  .section-products .product-list {
+    text-align: center; }
+    .section-products .product-list li {
+      display: inline-block;
+      padding: 25px;
+      font-size: 20px; }
+  .section-products .product-list-deal {
+    margin-top: 30px;
+    display: flex; }
+    .section-products .product-list-deal .product {
+      position: relative;
+      width: 22%; }
+      .section-products .product-list-deal .product .product-img {
+        position: relative; }
+        .section-products .product-list-deal .product .product-img img {
+          display: inline-block;
+          width: 100%; }
+        .section-products .product-list-deal .product .product-img .product-badge {
+          position: absolute;
+          top: 10px;
+          right: 35px;
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px; }
+        .section-products .product-list-deal .product .product-img .product-action {
+          position: absolute;
+          z-index: 999;
+          bottom: 0;
+          left: 0;
+          justify-content: space-around;
+          padding: 10px;
+          width: 92.8%;
+          opacity: 1;
+          transition: all .5s ease 0s;
+          background: none scroll 0 0 #a749ff;
+          text-align: center;
+          display: none; }
+          .section-products .product-list-deal .product .product-img .product-action button {
+            border-radius: 50px;
+            border: none;
+            background: #fff;
+            width: 34px;
+            height: 34px; }
+        .section-products .product-list-deal .product .product-img .product-action button:hover {
+          background-color: #FA6BF8;
+          color: #fff; }
+      .section-products .product-list-deal .product .product-info {
+        text-align: center;
+        font-size: 16px; }
+        .section-products .product-list-deal .product .product-info .price {
+          display: flex;
+          justify-content: center; }
+          .section-products .product-list-deal .product .product-info .price .deal-price {
+            position: relative; }
+          .section-products .product-list-deal .product .product-info .price .old-price {
+            color: #FA6BF8;
+            text-decoration: line-through; }
+    .section-products .product-list-deal .product:hover .product-action {
+      display: flex;
+      position: absolute; }
+
+.banner-display {
+  position: relative;
+  overflow: hidden; }
+  .banner-display .banner-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    list-style: none; }
+    .banner-display .banner-content h3 {
+      color: #97584a;
+      font-weight: 600px;
+      margin: 0;
+      font-size: 26px; }
+    .banner-display .banner-content h4 {
+      font-size: 18px;
+      font-weight: 600px; }
+    .banner-display .banner-content h4 span {
+      color: #97584a;
+      font-size: 20px;
+      line-height: 1;
+      top: 5px;
+      display: inline-block;
+      margin: 0 0 2px;
+      position: relative; }
+    .banner-display .banner-content a {
+      display: inline-block;
+      color: #97584a;
+      border: 2px solid #97584a;
+      border-radius: 100%;
+      width: 24px;
+      height: 24px;
+      font-size: 18px;
+      text-align: center;
+      position: absolute;
+      padding: 5px;
+      top: 100px; }
+
+.banner-countdown {
+  position: relative;
+  padding: 20px; }
+  .banner-countdown img {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 30px; }
+  .banner-countdown .deal-countdown {
+    position: absolute;
+    top: 5%;
+    right: 3px;
+    transform: translateY(50%); }
+    .banner-countdown .deal-countdown .title-replay {
+      top: 10px;
+      font-size: 45px;
+      text-align: center;
+      line-height: 3px;
+      color: #333; }
+    .banner-countdown .deal-countdown .time-countdown {
+      text-align: center;
+      margin-top: 10px; }
+      .banner-countdown .deal-countdown .time-countdown li {
+        font-size: 50px;
+        display: inline-block;
+        margin: 40px;
+        right: 100px;
+        color: #555; }
+    .banner-countdown .deal-countdown .calendar-countdown li {
+      display: inline-block;
+      font-size: 20px;
+      color: #555;
+      margin: 26px 26px 20px 20px;
+      line-height: 10px;
+      right: 5px; }
+    .banner-countdown .deal-countdown .btn-replay {
+      padding: 10px 50px 10px 50px;
+      border-radius: 25px;
+      font-size: 20px;
+      background-color: #c61a32;
+      color: #fff; }
+    .banner-countdown .deal-countdown .btn-banner-countdown {
+      position: absolute;
+      top: 280px;
+      left: 30%; }
+  .banner-countdown .deal-countdown a:hover {
+    border: 1px solid #a749ff;
+    transition: all .5s ease-in-out 0s;
+    background-color: #a749ff;
+    color: #fff; }
+
+.form-subscribe-footer input {
+  width: 280px;
+  padding: 2px 10px 2px;
+  margin: 8px 0;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+  outline: none; }
+
+.form-subscribe-footer button {
+  box-sizing: border-box;
+  border: none; }
+
+span.pink {
+  background-color: #FA6BF8;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 10px; }
+
+span.purple {
+  background-color: #a749ff;
+  color: #fff;
+  border-radius: 3px;
+  padding: 4px 16px; }
+
+.is-hidden {
+  display: none; }
