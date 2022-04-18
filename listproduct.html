@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/table.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <title>List Product</title>
+</head>
+<body>
+  <header class="page-header">
+    <hr/>
+    <nav class="header-nav">
+      <div class="container">
+        <a class="logo" href="./listproduct.html"><img src="./image/logo.png" alt="Logo"></a>
+        <ul class="menu-list">
+          <li><a href="./listproduct.html">List Product</a></li>
+          <li><a href="./create.html">Create</a></li>
+          <li><a href="./edit.html">Edit</a></li>
+        </ul>
+        <ul class="icon-list">
+          <li>
+            <a href=""><i class="fa fa-search"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <div class="container">
+      <div class="product-item">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>IMAGE</th>
+              <th>PRODUCT</th>
+              <th>PRICE</th>
+              <th>ACTION</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2022 Flone. All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+</html>
