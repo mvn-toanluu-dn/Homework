@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise JS</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h2>What are the differences between a variable that is: `null`, `undefined`?</h2>
+    <p>
+      Null có nghĩa là giá trị rỗng hoặc giá trị không tồn tại, nó có thể được sử dụng để gán cho một biến như là một đại diện không có giá trị.<br>
+      Undefined có nghĩa là không xác định, khi bạn khai báo một biến nhưng chưa gán giá trị cho nó, giá trị của biến đó sẽ là undefined.<br>
+      typeof undefined           // undefined<br>
+      typeof null                // object<br>
+    </p>
+  <h2>What is `use strict`? what are the advantages and disadvantages to using it?</h2>
+    <p>
+      Nếu bạn đặt "use strict" ở đầu đoạn code (hoặc hàm), thì JS sẽ mặc định nó là chế độ nghiêm ngặt.<br>
+      Chế độ này gây ra nhiều lỗi hơn và vô hiệu hoá một số tính năng nhằm nỗ lực làm cho code của bạn trở nên <br>
+      mạnh hơn, dễ đọc hơn, và chính xác hơn.<br>
+      Lợi thế: <br>
+      Nó ngăn chặn hoặc báo lỗi khi các hành động "không an toàn" được thực hiện.<br>
+      Nó vô hiệu hoá các tính năng khó hiểu hoặc thiếu suy nghĩ.<br>
+      Nó bắt lỗi vào những tình huống khó xử, không thực thi.<br>
+      Nhược điểm: <br>
+      Khi kết hợp code giữa use strict và normal mode, nếu bạn sử dụng thư viện của strict mode, nhưng đã quen với normal mode sẽ có một số hành động trên thư viện không hoạt động như mong đợi.<br>
+      Tệ hơn nữa là khi đang ở normal mode, bạn sẽ không có lợi thế về các lỗi bổ sung được báo mà nó xảy ra âm thầm.
+    </p>
+  <h2>
+    - What are the differences between `==` and `===`? Write an example for each case (if any)?<br>
+    - Give a list of `Falsy` values in Javascript.<br>
+  </h2>
+    <p>
+      '==': Dùng so sánh giá trị. <br>
+      '4' == 4 // return true <br>
+      '===': Dùng so sánh giá trị, kiểu dữ liệu. <br>
+      '4' === 4 // return false <br>
+      Giá trị của 'Falsy' : " ", null, NaN, underfined, 0, false <br>
+    </p>
+</body>
+</html>
